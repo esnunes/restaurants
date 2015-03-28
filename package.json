@@ -1,0 +1,47 @@
+{
+  "name": "restaurants",
+  "version": "0.0.0",
+  "description": "Restaurants",
+  "main": "app/server/index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack -p",
+    "start": "node .",
+    "test": "./node_modules/.bin/eslint app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:esnunes/restaurants.git"
+  },
+  "author": "Eduardo Nunes <esnunes@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^0.9.0",
+    "axios": "^0.5.0",
+    "babel": "^4.4.3",
+    "ejs": "^2.2.4",
+    "express": "^4.11.2",
+    "flummox": "^3.1.1",
+    "lodash": "^3.3.0",
+    "react": "^0.13.1",
+    "react-router": "git+ssh://git@github.com:bobpace/react-router.git#transitionContext",
+    "react-router-express": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^4.4.3",
+    "babel-eslint": "^2.0.2",
+    "babel-loader": "^4.0.0",
+    "bootstrap": "^3.3.2",
+    "css-loader": "^0.9.1",
+    "eslint": "^0.17.1",
+    "expose-loader": "^0.6.0",
+    "extract-text-webpack-plugin": "^0.3.8",
+    "file-loader": "^0.8.1",
+    "imports-loader": "^0.6.3",
+    "jquery": "^2.1.3",
+    "react-hot-loader": "^1.2.3",
+    "style-loader": "^0.8.3",
+    "url-loader": "^0.5.5",
+    "webpack": "^1.5.3",
+    "webpack-dev-server": "^1.7.0"
+  }
+}
