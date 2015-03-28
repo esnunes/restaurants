@@ -4,7 +4,7 @@ var path = require('path');
 
 module.exports = {
   entry: [
-    './app/client.js',
+    './app/client/index.js',
   ],
 
   output: {
