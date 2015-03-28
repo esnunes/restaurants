@@ -1,6 +1,6 @@
 {
   "name": "restaurants",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Restaurants",
   "main": "app/server/index.js",
   "scripts": {
