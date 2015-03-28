@@ -30,7 +30,7 @@ export default class RestaurantCard extends React.Component {
 
   render () {
     const coordinates = this.props.restaurant.loc.coordinates;
-    const mapsUrl = Maps[this.props.navigation.app].url + coordinates[0] + ',' + coordinates[1];
+    const mapsUrl = Maps[this.props.navigation.app].url + coordinates[1] + ',' + coordinates[0];
 
     return (
       <div className="panel panel-default">
