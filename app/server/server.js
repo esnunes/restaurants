@@ -21,7 +21,7 @@ server.set('views', __dirname);
 server.engine('html', require('ejs').renderFile);
 
 
-server.use('/assets', express.static(path.join(__dirname, '../assets')));
+server.use('/assets', express.static(path.join(__dirname, '../../assets')));
 
 
 server.use(function (req, res, next) {
