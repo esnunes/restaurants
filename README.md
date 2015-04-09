@@ -24,7 +24,7 @@ cd restaurants
 # download dependencies
 npm install
 # run
-POI_SERVICE=http://poi-service.enunes.com npm start
+POI_SERVICE_URL=http://poi-service.enunes.com npm start
 # open http://localhost:8080
 ```
 
